@@ -50,7 +50,7 @@
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                           <Component id="Saving" max="32767" attributes="0"/>
-                          <Component id="Notification" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Transaction" alignment="1" max="32767" attributes="0"/>
                           <Component id="LockCard" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
                           <Component id="ChaPass" alignment="0" max="32767" attributes="0"/>
                       </Group>
@@ -76,7 +76,7 @@
               <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="Transfer" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Notification" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Transaction" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -131,6 +131,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Loan"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LoanActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Saving">
       <Properties>
@@ -172,7 +175,7 @@
         <Property name="text" type="java.lang.String" value="Balance"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Notification">
+    <Component class="javax.swing.JButton" name="Transaction">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="0" type="rgb"/>
