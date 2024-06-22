@@ -38,12 +38,22 @@ public class Menu extends javax.swing.JFrame {
         setResizable(false);
 
         Transfer.setBackground(new java.awt.Color(0, 204, 204));
-        Transfer.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\bank-transfer (2).png")); // NOI18N
+        Transfer.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\bank.png")); // NOI18N
         Transfer.setText("Transfer");
+        Transfer.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TransferActionPerformed(evt);
+            }
+        });
 
         PayElec.setBackground(new java.awt.Color(0, 204, 204));
         PayElec.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\mobile-payment.png")); // NOI18N
         PayElec.setText("Pay Electricity Bill");
+        PayElec.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PayElecActionPerformed(evt);
+            }
+        });
 
         Loan.setBackground(new java.awt.Color(0, 204, 204));
         Loan.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\business.png")); // NOI18N
@@ -57,10 +67,20 @@ public class Menu extends javax.swing.JFrame {
         Saving.setBackground(new java.awt.Color(0, 204, 204));
         Saving.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\wallet.png")); // NOI18N
         Saving.setText("Saving");
+        Saving.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SavingActionPerformed(evt);
+            }
+        });
 
         ChaPass.setBackground(new java.awt.Color(0, 204, 204));
         ChaPass.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\settings.png")); // NOI18N
         ChaPass.setText("Change Password");
+        ChaPass.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ChaPassActionPerformed(evt);
+            }
+        });
 
         jTextField1.setBorder(null);
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -75,6 +95,11 @@ public class Menu extends javax.swing.JFrame {
         Transaction.setBackground(new java.awt.Color(0, 204, 204));
         Transaction.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\notification.png")); // NOI18N
         Transaction.setText("Transaction");
+        Transaction.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TransactionActionPerformed(evt);
+            }
+        });
 
         View.setBackground(new java.awt.Color(0, 204, 204));
         View.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\view.png")); // NOI18N
@@ -83,10 +108,20 @@ public class Menu extends javax.swing.JFrame {
         LockCard.setBackground(new java.awt.Color(0, 204, 204));
         LockCard.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\protection.png")); // NOI18N
         LockCard.setText("Lock Card");
+        LockCard.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LockCardActionPerformed(evt);
+            }
+        });
 
         PayWater.setBackground(new java.awt.Color(0, 204, 204));
         PayWater.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\mobile-payment.png")); // NOI18N
         PayWater.setText("Pay Water Bill");
+        PayWater.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PayWaterActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -159,9 +194,51 @@ public class Menu extends javax.swing.JFrame {
 
     private void LoanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoanActionPerformed
         dispose();
-        Loan lo=new Loan();
-        lo.setVisible(true);
+        Loan loan=new Loan();
+        loan.setVisible(true);
     }//GEN-LAST:event_LoanActionPerformed
+
+    private void TransferActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TransferActionPerformed
+        dispose();
+        Transfer tra=new Transfer();
+        tra.setVisible(true);
+    }//GEN-LAST:event_TransferActionPerformed
+
+    private void PayElecActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PayElecActionPerformed
+       dispose();
+       PayElectric elec=new PayElectric();
+       elec.setVisible(true);
+    }//GEN-LAST:event_PayElecActionPerformed
+
+    private void PayWaterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PayWaterActionPerformed
+       dispose();
+       PayWater wat=new PayWater();
+       wat.setVisible(true);
+    }//GEN-LAST:event_PayWaterActionPerformed
+
+    private void TransactionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TransactionActionPerformed
+       dispose();
+       Transaction tras=new Transaction();
+       tras.setVisible(true);
+    }//GEN-LAST:event_TransactionActionPerformed
+
+    private void SavingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SavingActionPerformed
+       dispose();
+       Saving sa=new Saving();
+       sa.setVisible(true);
+    }//GEN-LAST:event_SavingActionPerformed
+
+    private void LockCardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LockCardActionPerformed
+       dispose();
+       Lock lock=new Lock();
+       lock.setVisible(true);
+    }//GEN-LAST:event_LockCardActionPerformed
+
+    private void ChaPassActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChaPassActionPerformed
+       dispose();
+       ChaPass cha=new ChaPass();
+       cha.setVisible(true);
+    }//GEN-LAST:event_ChaPassActionPerformed
 
 
     
