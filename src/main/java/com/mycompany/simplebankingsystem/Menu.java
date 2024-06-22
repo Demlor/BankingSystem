@@ -75,7 +75,7 @@ public class Menu extends javax.swing.JFrame {
 
         Notification.setBackground(new java.awt.Color(0, 204, 204));
         Notification.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\notification.png")); // NOI18N
-        Notification.setText("Notification");
+        Notification.setText("Transaction");
 
         View.setBackground(new java.awt.Color(0, 204, 204));
         View.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\view.png")); // NOI18N

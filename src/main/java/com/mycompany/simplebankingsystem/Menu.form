@@ -180,7 +180,7 @@
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="2" name="C:\Users\NC\Pictures\Java\notification.png"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Notification"/>
+        <Property name="text" type="java.lang.String" value="Transaction"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel8">
