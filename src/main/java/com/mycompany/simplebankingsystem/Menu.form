@@ -26,7 +26,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="48" max="32767" attributes="0"/>
+              <EmptySpace pref="74" max="32767" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jTextField1" min="-2" pref="274" max="-2" attributes="0"/>
@@ -39,13 +39,11 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="Loan" max="32767" attributes="0"/>
-                              <Component id="PayWater" alignment="0" pref="158" max="32767" attributes="0"/>
-                              <Component id="Transfer" alignment="0" max="32767" attributes="0"/>
-                          </Group>
-                          <Component id="PayElec" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="Loan" max="32767" attributes="0"/>
+                          <Component id="PayWater" alignment="0" pref="158" max="32767" attributes="0"/>
+                          <Component id="Transfer" alignment="0" max="32767" attributes="0"/>
+                          <Component id="PayElec" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
@@ -85,7 +83,7 @@
               </Group>
               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="PayElec" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PayElec" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
                   <Component id="LockCard" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
@@ -104,9 +102,6 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="0" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\NC\Pictures\Java\bank.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Transfer"/>
       </Properties>
       <Events>
@@ -117,9 +112,6 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="0" type="rgb"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\NC\Pictures\Java\mobile-payment.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Pay Electricity Bill"/>
       </Properties>
@@ -132,9 +124,6 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="0" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\NC\Pictures\Java\business.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Loan"/>
       </Properties>
       <Events>
@@ -146,9 +135,6 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="0" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\NC\Pictures\Java\wallet.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Saving"/>
       </Properties>
       <Events>
@@ -159,9 +145,6 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="0" type="rgb"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\NC\Pictures\Java\settings.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Change Password"/>
       </Properties>
@@ -192,9 +175,6 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="0" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\NC\Pictures\Java\notification.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Transaction"/>
       </Properties>
       <Events>
@@ -208,9 +188,6 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="0" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\NC\Pictures\Java\view.png"/>
-        </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
             <BevelBorder/>
@@ -223,9 +200,6 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="0" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\NC\Pictures\Java\protection.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Lock Card"/>
       </Properties>
       <Events>
@@ -236,9 +210,6 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="0" type="rgb"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\NC\Pictures\Java\mobile-payment.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Pay Water Bill"/>
       </Properties>

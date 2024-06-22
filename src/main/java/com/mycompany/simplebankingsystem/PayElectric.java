@@ -4,6 +4,8 @@
  */
 package com.mycompany.simplebankingsystem;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author NC
@@ -45,6 +47,11 @@ public class PayElectric extends javax.swing.JFrame {
         jButton1.setText("Inquiry bill");
 
         jButton2.setText("Pay");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -99,6 +106,11 @@ public class PayElectric extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+                // TODO add your handling code here:
+                JOptionPane.showMessageDialog(null,"Paid Complete!");
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

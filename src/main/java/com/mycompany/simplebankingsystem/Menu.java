@@ -38,7 +38,6 @@ public class Menu extends javax.swing.JFrame {
         setResizable(false);
 
         Transfer.setBackground(new java.awt.Color(0, 204, 204));
-        Transfer.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\bank.png")); // NOI18N
         Transfer.setText("Transfer");
         Transfer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -47,7 +46,6 @@ public class Menu extends javax.swing.JFrame {
         });
 
         PayElec.setBackground(new java.awt.Color(0, 204, 204));
-        PayElec.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\mobile-payment.png")); // NOI18N
         PayElec.setText("Pay Electricity Bill");
         PayElec.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -56,7 +54,6 @@ public class Menu extends javax.swing.JFrame {
         });
 
         Loan.setBackground(new java.awt.Color(0, 204, 204));
-        Loan.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\business.png")); // NOI18N
         Loan.setText("Loan");
         Loan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,7 +62,6 @@ public class Menu extends javax.swing.JFrame {
         });
 
         Saving.setBackground(new java.awt.Color(0, 204, 204));
-        Saving.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\wallet.png")); // NOI18N
         Saving.setText("Saving");
         Saving.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,7 +70,6 @@ public class Menu extends javax.swing.JFrame {
         });
 
         ChaPass.setBackground(new java.awt.Color(0, 204, 204));
-        ChaPass.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\settings.png")); // NOI18N
         ChaPass.setText("Change Password");
         ChaPass.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,7 +88,6 @@ public class Menu extends javax.swing.JFrame {
         jLabel1.setText("Balance");
 
         Transaction.setBackground(new java.awt.Color(0, 204, 204));
-        Transaction.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\notification.png")); // NOI18N
         Transaction.setText("Transaction");
         Transaction.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,11 +96,9 @@ public class Menu extends javax.swing.JFrame {
         });
 
         View.setBackground(new java.awt.Color(0, 204, 204));
-        View.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\view.png")); // NOI18N
         View.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         LockCard.setBackground(new java.awt.Color(0, 204, 204));
-        LockCard.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\protection.png")); // NOI18N
         LockCard.setText("Lock Card");
         LockCard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,7 +107,6 @@ public class Menu extends javax.swing.JFrame {
         });
 
         PayWater.setBackground(new java.awt.Color(0, 204, 204));
-        PayWater.setIcon(new javax.swing.ImageIcon("C:\\Users\\NC\\Pictures\\Java\\mobile-payment.png")); // NOI18N
         PayWater.setText("Pay Water Bill");
         PayWater.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -128,7 +119,7 @@ public class Menu extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(48, Short.MAX_VALUE)
+                .addContainerGap(74, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -140,12 +131,11 @@ public class Menu extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel8)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(Loan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(PayWater, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
-                                .addComponent(Transfer, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addComponent(PayElec))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Loan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(PayWater, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
+                            .addComponent(Transfer, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(PayElec, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(35, 35, 35)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addComponent(Saving, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -175,7 +165,7 @@ public class Menu extends javax.swing.JFrame {
                     .addComponent(Saving))
                 .addGap(33, 33, 33)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(PayElec)
+                    .addComponent(PayElec, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(LockCard, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(21, 21, 21)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
